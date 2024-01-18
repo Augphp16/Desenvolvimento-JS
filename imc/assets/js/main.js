@@ -1,4 +1,3 @@
-//caturar evento de submit do usuário
 const form = document.querySelector('#form');
 
 form.addEventListener('submit', function (e) {{
