@@ -10,6 +10,8 @@ const jump = () => {
     }, 500)
 }
 
+document.addEventListener('keydown', jump);
+
 const loop = setInterval(() => {
 
     console.log('loop')
@@ -34,5 +36,3 @@ const loop = setInterval(() => {
     }
 
 }, 10)
-
-document.addEventListener('keydown', jump);
